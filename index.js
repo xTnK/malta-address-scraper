@@ -111,13 +111,13 @@ async function aggregateData() {
 
 // Write the results to a JSON file
 function writeToJson(results) {
-    fs.writeFileSync('data.json', JSON.stringify(results));
+    fs.writeFileSync('addresses-results.json', JSON.stringify(results));
 }
 
 // Write the results to a CSV file
 function writeToCsv(results) {
     const csv = parse(results);
-    fs.writeFileSync('data.csv', '\uFEFF' + csv); // Add BOM for UTF-8 encoding otherwise Excel will not display special (maltese) characters correctly
+    fs.writeFileSync('addresses-results.csv', '\uFEFF' + csv); // Add BOM for UTF-8 encoding otherwise Excel will not display special (maltese) characters correctly
 }
 
 // Main function to run the data aggregation process

@@ -4,7 +4,7 @@
 This project is a Node.js scraper designed to collect address data from the MaltaPost API and enrich it with geographical coordinates using the Google Geocoding API. The scraper retrieves all towns, streets, and addresses in Malta, and for each address, it fetches latitude and longitude coordinates. This data is useful for various applications, such as mapping, analysis, and logistics.
 
 ## How to Use
-This scraper is already executed, and the collected data is available in the repository. You can directly use the pre-generated `data.csv` and `data.json` files without running the scraper yourself. If you wish to update the data or customize the scraping process, follow the setup and execution instructions below.
+This scraper is already executed, and the collected data is available in the repository. You can directly use the pre-generated `addresses-results.csv` and `addresses-results.json` files without running the scraper yourself. If you wish to update the data or customize the scraping process, follow the setup and execution instructions below.
 
 ### Prerequisites
 - Node.js
@@ -24,8 +24,8 @@ This will start the process of data collection, and you will see progress logs i
 
 ### Results
 After the scraper has finished, the collected data will be saved in the root directory as:
-- `data.json` - A JSON file containing the aggregated data.
-- `data.csv` - A CSV file with the same data for use in spreadsheets or other applications.
+- `addresses-results.json` - A JSON file containing the aggregated data.
+- `addresses-results.csv` - A CSV file with the same data for use in spreadsheets or other applications.
 
 ## Output Data Format
 The data files include the following fields for each address:
