@@ -20,7 +20,7 @@ If you wish to update the data or customize the scraping process, follow the set
 ### Configuration
 An example `.env` file is included in the root directory. Before running the scraper, open this file and replace `your_google_api_key_here` with your actual Google Geocoding API key. If this key remains unchanged or is missing, the scraper will not retrieve latitude and longitude data, limiting the details available in the output files.
 
-**⚠️ Be aware that running the scraper fully with Geocoding data will use around 140 USD of Google API credits as of 21/09/2024 ⚠️** 
+**⚠️ Be aware that running the scraper fully with Geocoding data will use around 800 USD of Google API credits as of 21/09/2024 ⚠️** 
 
 ### Running the Scraper
 Execute the scraper by running: `node index.js`
